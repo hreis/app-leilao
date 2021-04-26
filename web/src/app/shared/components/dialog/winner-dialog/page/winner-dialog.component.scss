@@ -1,1 +1,17 @@
 @import '../../../../../../assets/styles/dialog.scss';
+
+.double-fields {
+  display: flex;
+  justify-content: space-between;
+  .mat-form-field {
+    width: 100%;
+    margin: 0 12px;
+  }
+}
+
+.solo-field {
+  .mat-form-field {
+    width: 100%;
+    margin: 0 12px;
+  }
+}

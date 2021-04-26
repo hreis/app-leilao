@@ -12,11 +12,44 @@
 
     <mat-card-content>
 
-      {{data.bid.bid}}
-      {{data.bid.date_bid}}
-      {{data.bid.id_bid}}
-      {{data.bid.username}}
-      {{this.data.collection}}
+      <form [formGroup]="fgWinner" style="margin-top: 24px">
+
+        <div class="double-fields">
+          <mat-form-field >
+            <mat-label>Id Bid</mat-label>
+            <input type="text" required matInput formControlName="fcIdBid">
+          </mat-form-field>
+
+          <mat-form-field >
+            <mat-label>Date Bid</mat-label>
+            <input type="text" required matInput formControlName="fcDate">
+          </mat-form-field>
+        </div>
+
+        <div class="double-fields">
+
+          <mat-form-field >
+            <mat-label>User Name</mat-label>
+            <input type="text" required matInput formControlName="fcUserName">
+          </mat-form-field>
+
+          <mat-form-field >
+            <mat-label>Bid</mat-label>
+            <input type="text" required matInput formControlName="fcBid">
+          </mat-form-field>
+
+        </div>
+
+        <div class="solo-field">
+          <mat-form-field >
+            <mat-label>Total Collection</mat-label>
+            <input type="text" required matInput formControlName="dcTotalCollection">
+          </mat-form-field>
+        </div>
+
+
+      </form>
+
     </mat-card-content>
 
   </mat-card>
