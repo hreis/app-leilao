@@ -1,0 +1,27 @@
+<form [formGroup]="fgLogin" (ngSubmit)="onSubmit()" class="form-login">
+
+  <mat-form-field appearance="fill">
+    <mat-label>Username</mat-label>
+    <input type="text" required matInput formControlName="fcUsername" autocomplete="off">
+    <mat-error>Please enter a username</mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Password</mat-label>
+    <input matInput [type]="hide ? 'password' : 'text'" formControlName="fcPassword" required>
+    <button type="button" mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'">
+      <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+    </button>
+    <mat-error>You should try to use this the right "Passw0rd"</mat-error>
+  </mat-form-field>
+
+  <button mat-stroked-button color="primary" class="btn-login"
+    [disabled]="!fgLogin.valid" type="submit">
+    <div class="flex-center">
+      <span>Login</span>
+      <mat-progress-spinner style="margin-left: 14px;" mode="indeterminate" color="primary" *ngIf="loading"
+        diameter="20"></mat-progress-spinner>
+    </div>
+  </button>
+
+</form>

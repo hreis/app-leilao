@@ -1,0 +1,29 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/hreis/Documents/Projetos/github-finder/server/logs/.b61392ba2f6815d53b0c95e182c8e2a8010825d2-audit.json",
+    "files": [
+        {
+            "date": 1615502572936,
+            "name": "/Users/hreis/Documents/Projetos/github-finder/server/logs/2021-03-11.log",
+            "hash": "4b23953c6eeda93e90e2014430359f93"
+        },
+        {
+            "date": 1615561952274,
+            "name": "/Users/hreis/Documents/Projetos/github-finder/server/logs/2021-03-12.log",
+            "hash": "9fe2b9bd490d767c70a4a1828bdf326b"
+        },
+        {
+            "date": 1615643026419,
+            "name": "/Users/hreis/Documents/Projetos/github-finder/server/logs/2021-03-13.log",
+            "hash": "03789df78d605942e69dac7e7aae7784"
+        },
+        {
+            "date": 1615731801909,
+            "name": "/Users/hreis/Documents/Projetos/github-finder/server/logs/2021-03-14.log",
+            "hash": "1600e4d46ed5ae017d9db5e2dc09d86b"
+        }
+    ]
+}

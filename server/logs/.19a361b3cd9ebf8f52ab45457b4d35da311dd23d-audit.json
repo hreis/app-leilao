@@ -1,0 +1,24 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Projetos\\app-leilao\\server\\logs\\.19a361b3cd9ebf8f52ab45457b4d35da311dd23d-audit.json",
+    "files": [
+        {
+            "date": 1619203694758,
+            "name": "D:\\Projetos\\app-leilao\\server\\logs\\2021-04-23.log",
+            "hash": "c782592953a7917868aa07548ad69064"
+        },
+        {
+            "date": 1619363923174,
+            "name": "D:\\Projetos\\app-leilao\\server\\logs\\2021-04-25.log",
+            "hash": "4457b6c4bae8c494381c2e6fd133849e"
+        },
+        {
+            "date": 1619432815723,
+            "name": "D:\\Projetos\\app-leilao\\server\\logs\\2021-04-26.log",
+            "hash": "756780a79b5940fde41aff5e278ce005"
+        }
+    ]
+}

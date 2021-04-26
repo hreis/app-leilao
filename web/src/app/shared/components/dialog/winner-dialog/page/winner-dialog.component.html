@@ -1,0 +1,27 @@
+<mat-dialog-content class="mat-typography">
+
+  <mat-card class="card-dialog">
+
+    <mat-card-header>
+      <div mat-card-avatar class="header-image"></div>
+      <mat-card-title>Lowest unique bid auction winner</mat-card-title>
+      <mat-card-subtitle class="card-subtitle">
+        Menu that allows you to know who was the winner of the auction.
+      </mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+
+      {{data.bid.bid}}
+      {{data.bid.date_bid}}
+      {{data.bid.id_bid}}
+      {{data.bid.username}}
+      {{this.data.collection}}
+    </mat-card-content>
+
+  </mat-card>
+
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Ok</button>
+</mat-dialog-actions>

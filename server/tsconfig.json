@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "build",
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*",
+      ]
+    },
+  },
+  "include": [
+    "src/**/*.ts", "src/server.js", "src/server.js", "server.ts", "src/routes/monitoramento/up-to-data/upToData.routes.js", "src/useCases/sql-strings/menuFiltroSql"
+  ]
+}

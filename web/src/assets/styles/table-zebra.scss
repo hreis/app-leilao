@@ -1,0 +1,170 @@
+@import './variables.scss';
+
+.table {
+  max-height: 60vh;
+  width: 100%;
+  // max-width: 104.6em;
+  display: block !important;
+}
+
+.mat-table {
+  overflow-x: scroll;
+}
+
+.hidden-table {
+  display: none !important;
+}
+
+.mat-cell,
+.mat-header-cell {
+  word-wrap: initial;
+  display: table-cell;
+  padding: 0px 220px;
+  line-break: unset;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.mat-row,
+.mat-header-row {
+  display: table-row;
+}
+
+.mat-header-row {
+  background-color: $header-table;
+}
+
+td {
+  font-size: 11px;
+  color: $text-color;
+}
+
+th {
+  font-weight: bold;
+}
+
+th.mat-header-cell,
+td.mat-cell {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+:host ::ng-deep .mat-sort-header-container {
+  display:flex;
+  justify-content:center;
+}
+
+.mat-row:nth-child(even) {
+  background-color: $header-table;
+}
+
+.mat-row:nth-child(odd) {
+  background-color: rgb(255, 255, 255);
+}
+
+.example-table-container {
+  position: relative;
+  //max-height: 400px;
+  overflow: auto;
+  max-width: 100%;
+}
+
+.example-container {
+  margin-top: 20px !important;
+  position: relative !important;
+  min-height: 200px !important;
+  border: 1px solid $border-table;
+  //margin: 0 36px;
+  max-width: 100%;
+}
+
+.badge-outline-info {
+  background-color: transparent;
+  box-shadow: 0 0 0 1px $green-accent inset;
+  color: $green-accent;
+}
+
+.badge-outline-warn {
+  background-color: transparent;
+  box-shadow: 0 0 0 1px $warn inset;
+  color: $warn;
+}
+
+.badge-outline-ultra-warn {
+  box-shadow: 0 0 0 1px $warn inset;
+  color: $white;
+  background-color: $warn;
+}
+
+.badge-outline-ultimate-warn {
+  box-shadow: 0 0 0 1px $ult-warn inset;
+  color: $white;
+  background-color: $ult-warn;
+}
+
+.badge-outline-accent {
+  background-color: transparent;
+  box-shadow: 0 0 0 1px $accent inset;
+  color: $accent;
+}
+
+.badge-outline-orange {
+  background-color: transparent;
+  box-shadow: 0 0 0 1px $accent inset;
+  color: $orange;
+}
+
+.badge-outline-primary {
+  background-color: transparent;
+  box-shadow: 0 0 0 1px $primary-color inset;
+  color: $primary-color;
+  transition: 0.5s;
+}
+
+.badge-outline-primary:hover {
+  background-color: $primary-color;
+  color: black;
+}
+
+.badge {
+  cursor: pointer;
+  display: inline-block;
+  padding: .25em .417em;
+  font-size: .928em;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .125rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.person-span {
+  display: flex;
+  align-items: center;
+}
+
+.info-person-span {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.flag {
+  height: 1.3em;
+  margin-right: 6px;
+  opacity: 0.8;
+  border-radius: 2px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.pdf {
+  cursor: pointer;
+  font-size: 20px;
+  color: $warn;
+}

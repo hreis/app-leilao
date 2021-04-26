@@ -1,0 +1,23 @@
+@import './variables.scss';
+
+.card-dialog {
+  box-shadow: none;
+  background-color: #ffff !important;
+}
+
+.header-image {
+  background: url('../images/winner.svg') no-repeat center;
+  background-size: 2em;
+}
+
+.card-subtitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+//   background: url('../../../../assets/images/search-bg.svg') no-repeat center;
+//   padding-bottom: 500px;
+//   margin-bottom: -500px;
+//   background-size: 20vh;
+//   height: 90%;
