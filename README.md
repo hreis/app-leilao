@@ -1,5 +1,4 @@
 # app-leilao
-this is a simply app that get GitHub user's infos;
 
 To start the project follow the steps below:
 
